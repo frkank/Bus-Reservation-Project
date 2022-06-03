@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BesikduzuSeyahat.WebUI
+build_property.ProjectDir = C:\Users\kahyaoğlu61\Desktop\Bus-Reservation-Project\BesikduzuSeyahat_BusTicket_Furkan_Kaya\BesikduzuSeyahat.WebUI\

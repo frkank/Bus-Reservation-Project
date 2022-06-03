@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat.WebUI\\BesikduzuSeyahat.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat.WebUI\\BesikduzuSeyahat.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat.WebUI\\BesikduzuSeyahat.WebUI.csproj",
+        "projectName": "BesikduzuSeyahat.WebUI",
+        "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat.WebUI\\BesikduzuSeyahat.WebUI.csproj",
+        "packagesPath": "C:\\Users\\kahyaoğlu61\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kahyaoğlu61\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Business\\BesikduzuSeyahat.Business.csproj": {
+                "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Business\\BesikduzuSeyahat.Business.csproj"
+              },
+              "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj": {
+                "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj"
+              },
+              "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj": {
+                "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Business\\BesikduzuSeyahat.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Business\\BesikduzuSeyahat.Business.csproj",
+        "projectName": "BesikduzuSeyahat.Business",
+        "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Business\\BesikduzuSeyahat.Business.csproj",
+        "packagesPath": "C:\\Users\\kahyaoğlu61\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kahyaoğlu61\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj": {
+                "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj"
+              },
+              "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj": {
+                "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj",
+        "projectName": "BesikduzuSeyahat.Data",
+        "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\BesikduzuSeyahat.Data.csproj",
+        "packagesPath": "C:\\Users\\kahyaoğlu61\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kahyaoğlu61\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj": {
+                "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj",
+        "projectName": "BesikduzuSeyahat.Entity",
+        "projectPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\BesikduzuSeyahat.Entity.csproj",
+        "packagesPath": "C:\\Users\\kahyaoğlu61\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kahyaoğlu61\\Desktop\\Bus-Reservation-Project\\BesikduzuSeyahat_BusTicket_Furkan_Kaya\\BesikduzuSeyahat_Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kahyaoğlu61\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
