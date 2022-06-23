@@ -16,9 +16,7 @@
                 <option></option>
             </select>
             <button type="submit" class="btn btn-danger btn-lg btn-block">Yolculuk Bul</button>
-            @*<label for="" class="biletLabel">Tarih</label>
-                <input type="date" name="" id="" class="biletSelect">
-                <input type="submit" value="Seferleri Göster">*@
+
         </form>
     </div>
     <div class="slider col-8">
@@ -55,25 +53,25 @@
         </div>
     </div>
 </div>
-@if (Model.Directions != null)
-{
-    <div class="row">
-        @foreach (var item in @Model.Directions)
-        {
 
-            <div class="col-md-6">
-                @await Html.PartialAsync("travel", item)
-
-            </div>
-        }
-    </div>
-}
-else
+@if (Model.Directions == null)
 {
     <div class="row">
         @await Html.PartialAsync("_noTravel")
     </div>
 }
+else
+{
+<div class="row">
+    @foreach (var item in @Model.Directions)
+    {
+        <div class="col-md-6">
+            @await Html.PartialAsync("travel", item)
+        </div>
+    }
+</div>
+}
+
 <div class="anaCard bg-light">
     <h3>UĞRAK DURAKLAR</h3>
     <div class="row row-cols-1 row-cols-sm-3 g-4">
